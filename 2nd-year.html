@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Resources</title>
+    <link rel="stylesheet" href="resource-details.css">
+</head>
+<body>
+
+<h1 class="title">Web Development</h1>
+
+<div class="select-box">
+    <select id="courseSelect" onchange="loadWebResources()">
+        <option value="">Select Topic</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+    </select>
+</div>
+
+<div class="content">
+
+    <!-- Videos -->
+    <div class="videos">
+        <h2>Videos</h2>
+        <div id="videoList"></div>
+    </div>
+
+    <!-- Notes -->
+    <div class="notes">
+        <h2>Notes</h2>
+        <div id="notesList"></div>
+    </div>
+
+</div>
+
+<script src="2nd-script.js"></script>
+</body>
+</html>

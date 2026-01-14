@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Core Subjects Resources</title>
+    <link rel="stylesheet" href="resource-details.css">
+</head>
+<body>
+
+<h1 class="title">Core Subjects – 1st Year</h1>
+
+<div class="select-box">
+    <select id="courseSelect" onchange="loadCoreResources()">
+        <option value="">Select Subject</option>
+        <option value="dbms">DBMS</option>
+        <option value="os">Operating Systems</option>
+        <option value="cn">Computer Networks</option>
+        <option value="coa">COA</option>
+    </select>
+</div>
+
+<div class="content">
+
+    <!-- Videos -->
+    <div class="videos">
+        <h2>Videos</h2>
+        <div id="videoList"></div>
+    </div>
+
+    <!-- Notes -->
+    <div class="notes">
+        <h2>Notes</h2>
+        <div id="notesList"></div>
+    </div>
+
+</div>
+
+<script src="core.js"></script>
+</body>
+</html>

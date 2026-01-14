@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmaps | Engineering Career Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Engineering Career Hub</h1>
+        <p>Your roadmap from 1st year to placement</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roadmaps.html">Roadmaps</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="intenships.html">Internships</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Engineering Roadmaps</h2>
+            <p>Select your year to follow a stuctured learning path.</p>
+        </section>
+        <section class="features">
+            <div class="card" onclick="showRoadmap('year1')">
+                <h3>1st Year</h3>
+                <p>Programming Basics,mathematic, and fundamentals.</p>
+
+            </div>
+
+            <div class="card" onclick="showRoadmap('year2')" >
+                <h3>2nd Year</h3>
+                <p>Data structures,core subjects,and mini projects.</p>
+
+            </div>
+
+            <div class="card" onclick="showRoadmap('year3')">
+                <h3>3rd Year</h3>
+                <p>Advanced skills,internsips,and real-world projects.</p>
+
+            </div>
+
+            <div class="card" onclick="showRoadmap('year4')">
+                <h3>4th Year</h3>
+                <p>Placement ,final-year project,and interviews.</p>
+
+            </div>
+        </section>
+        <section class="roadmap-details" id="roadmapDetails">
+            <h3 id="roadmapTitle">Select a year</h3>
+            <ul id="roadmapList"></ul>
+        </section>
+    </main>
+
+    <footer>
+  <p>© 2026 Engineering Career Hub | All Rights Reserved</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

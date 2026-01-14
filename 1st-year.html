@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>programming Resources</title>
+    <link rel="stylesheet" href="resource-details.css">
+</head>
+<body>
+
+<h1 class="title">Programming Resources</h1>
+
+<!-- Language Select -->
+<div class="select-box">
+    <select id="courseSelect" onchange="loadResources()">
+        <option value="">Select Language</option>
+        <option value="c">C</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="dsa">DSA (Basics)</option>
+    </select>
+</div>
+
+<!-- Main Content -->
+<div class="content">
+
+    <!-- Videos Section -->
+    <div class="videos">
+        <h2>Videos</h2>
+        <div id="videoList"></div>
+    </div>
+
+    <!-- Notes Section -->
+    <div class="notes">
+        <h2>Notes</h2>
+        <div id="notesList"></div>
+    </div>
+
+</div>
+
+<script src="script-1st.js"></script>
+</body>
+</html>
+

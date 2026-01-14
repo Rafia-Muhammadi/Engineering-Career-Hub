@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.select-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+select {
+    padding: 8px;
+    width: 220px;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.videos, .notes {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.video-card {
+    margin-bottom: 15px;
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.video-card a {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1d4ed8;
+}
+
+.note-item {
+    margin-bottom: 10px;
+}
